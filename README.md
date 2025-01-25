@@ -14,7 +14,7 @@ El objetivo final de este proyecto es que sea multijugador con un sistema de ran
 
 #Para iniciar el proyecto
 1. Clone el repositorio a visual estudio code (Recomendado el editor)
-2. Asegurece de tener note instalado, abra una terminal y ejecute ```npm install``` Para bajar las dependencias necesarias
+2. Asegurece de tener node instalado, abra una terminal y ejecute ```npm install``` Para bajar las dependencias necesarias
 3. Inicie el ```npm run dev``` para visualizar el proyecto localmente en el link que te entrega la terminal
 4. Cuango haga cambios contacteme para hacer un commit en este repositorio principal
 
