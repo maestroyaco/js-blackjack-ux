@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack UX App Vite</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    
+<div class="containerCenter">
+  <header class="title">
+      Blackjack UX 
+  </header>
+
+  <div id="ordenMessage"  class="row mt-2">
+      <div id="ordenBotones" class="col text-center">            
+          <button id="btnnewgame" class="btn btn-radius8 btn-success">New Game</button>
+          <button id="btnnextcard" class="btn btn-radius8 btn-primary">Next Card</button>
+          <button id="btnseecard" class="btn btn-radius8 btn-warning">See Cards</button>            
+      </div>
+      <div>
+          <h1 id="menssage"></h1>
+      </div>
+
+  </div>
+
+  <div  id="ordenCardPlayer"  class="row container">
+      <div class="col">
+          <h1>Player Points:<small>0</small></h1>
+          <div id="player-card" class="divcards"> 
+              <!-- <img class="card" src="assets/cards/10C.png" alt="">                 -->
+          </div>
+      </div>
+
+  </div>
+
+
+  <div id="ordenCardMachine" class="row container mt-2">
+      <div class="col">
+          <h1>Machine Points:<small>0</small></h1>
+          <div id="machine-card" class="divcards"> 
+              <!-- <img class="card" src="assets/cards/2C.png" alt=""> -->
+             
+          </div>
+      </div>
+
+  </div>
+  
+</div>
+    <script type="module" src="/src/main.js"></script>
+    
+  </body>
+</html>
