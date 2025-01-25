@@ -12,3 +12,11 @@ Sobre este proyecto, lo que se busca es tomar un simple codigo, y mejorarlo hast
 
 El objetivo final de este proyecto es que sea multijugador con un sistema de ranking integrado y ofrecer skin por puntos ganados a los jugadores. 
 
+#Para iniciar el proyecto
+1. Clone el repositorio a visual estudio code (Recomendado el editor)
+2. Asegurece de tener note instalado, abra una terminal y ejecute ```npm install``` Para bajar las dependencias necesarias
+3. Inicie el ```npm run dev``` para visualizar el proyecto localmente en el link que te entrega la terminal
+4. Cuango haga cambios contacteme para hacer un commit en este repositorio principal
+
+Mi discord es: yacoqh  ID: 333080333429768202
+
