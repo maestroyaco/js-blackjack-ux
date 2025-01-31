@@ -1,4 +1,4 @@
-import { deck } from "./constants";
+import { deck } from "../constants";
   // Tomar una carta
   
   export const askForCard = ( ) => {

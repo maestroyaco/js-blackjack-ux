@@ -8,6 +8,38 @@ h1 {
   font-size: 24px;
 }
 
+.H1Points {  
+
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  
+}
+
+.smallPoints {
+    background-color: #d54e46;
+    padding: 4px;
+    border-radius: 7px;
+    font-size: 27px;
+    font-weight: 700;
+    width: 40px;
+    text-align: center;
+}
+
+
+.H1Machine {
+
+  margin-right: 2px;
+}
+
+.CampoCardCss{
+  display: flex;
+}
+
+
 .btn:focus {
   outline: none;
   box-shadow: none;
@@ -16,7 +48,7 @@ h1 {
 body {
     margin: 0px;    
     color: white;
-    background-image: url('../img/fondo3.jpg');
+    background-image: url('./assets/img/fondo3.jpg');
     background-color: #2f4f30; 
     background-size: cover; 
     background-position: center; 
@@ -35,6 +67,30 @@ body {
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
 }
+
+#ordenCardPlayer {
+  margin-top: 20px;
+    outline: 10px solid transparent;
+    box-sizing: border-box;
+    background-color: #31413b;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 200px;
+    padding: 15px;
+}
+
+
+#ordenCardMachine {
+  margin-top: 20px;
+  outline: 10px solid transparent;
+  box-sizing: border-box;
+  background-color: #31413b;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 200px;
+  padding: 15px;
+}
+
 
 .card {
   position: relative;
@@ -92,6 +148,17 @@ body {
     margin-top: 2%;      
 }
 
+.menssageSeeCards {
+  background-color: #748f00;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  width: 304px;
+  margin: auto;
+  margin-top: 2%;
+}
  
   /* Clase de animación */
   .pulse {
@@ -128,9 +195,7 @@ body {
     box-shadow: 0 0 2px 2px rgb(67 100 68);
 }
 
-#ordenCardMachine {
-  padding-top: 77px;
-}
+
 
 #ordenMessage {
   flex-direction: column;
@@ -198,12 +263,17 @@ body {
 }
 
 .card {
-  position: relative;
-  display: inline;
-  width: 25%; 
+  
+  display: inline-block;
+  width: 87px;
   left: 54px;
   margin-left: -40px;
 
+}
+
+
+.H1Machine {
+  margin-right: 4px;
 }
 
 #player-card, #machine-card {

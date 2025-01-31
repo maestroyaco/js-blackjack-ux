@@ -1,7 +1,14 @@
-// minimumPoints es el argumento enviado por
-// turnedMachine( pointsPlayer); que reprecenta los puntos del jugador
+import { 
+ 
+  playersPoints,
+  
+} from './index';
 
-export const allMenssageSyntem = (minimumPoints,pointsMachine)=>{
+ 
+export const allMenssageSyntem = ()=>{
+
+  const minimumPoints = playersPoints[0];
+  const pointsMachine = playersPoints[playersPoints.length - 1];
 
   const menssage = document.querySelector("#menssage");
     
@@ -30,7 +37,16 @@ if (minimumPoints === pointsMachine) {
 } else if (pointsMachine > 21) {
         // La máquina supera 21
         machineSurPassedMessage(menssage);
-} else if (minimumPoints > pointsMachine) {
+} else if (pointsMachine > 21 && minimumPoints < 21) {
+       // Cuando usan ver carta y la maquina supero los 21 pero el jugador no
+       playerWinSeeCard(menssage);
+}else if (minimumPoints > 21 && pointsMachine < 21) {
+      // Cuando usan ver carta y el jugador supero los 21 pero la maquina no
+       machineWinSeeCard(menssage); 
+}else if (minimumPoints > 21 && pointsMachine > 21) {
+       // Cuando se jugan al todo o nada + de 3 cartas
+        DrawCards(menssage); 
+}else if (minimumPoints > pointsMachine) {
         // El jugador tiene más puntos que la máquina (sin pasarse de 21)
          playerMorePointMessage(menssage);
 } else {
@@ -76,6 +92,28 @@ const epicTie21Message = (menssage) =>{
     menssage.className = 'menssagedefeat';            
     menssage.textContent = 'You exceeded 21. You lose.';
   };
+
+  
+
+  // Al usar ver cartas y la maquina saca una mas que supera los 21
+  const playerWinSeeCard = (menssage) =>{
+    menssage.className = 'menssagewin';            
+    menssage.textContent = 'The machine exceeded 21, you win.';
+  };
+
+   // Al usar ver cartas y el jugador saco mas de 21 
+   const machineWinSeeCard = (menssage) =>{
+    menssage.className = 'menssagewin';            
+    menssage.textContent = 'You got more than 21, the machine beat you.';
+  };
+
+  
+
+// Al usar ver cartas y el jugador saco mas de 21 
+   const DrawCards = (menssage) =>{
+   menssage.className = 'menssagedefeat';            
+   menssage.textContent = 'Draw, the 2 exceeded 21';
+    };
   
    // La máquina supera 21
    const machineSurPassedMessage = (menssage) =>{

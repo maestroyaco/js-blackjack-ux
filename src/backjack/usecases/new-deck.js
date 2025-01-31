@@ -5,7 +5,8 @@ const NumCardstypes = ["C", "D", "H", "S"];
 const lettersCards = ["A", "J", "Q", "K"];
 
 export const newDeck = () => {
-  deck.length = 0; // Limpia el deck existente sin cambiar su referencia  
+  // Limpia el deck existente sin cambiar su referencia
+  deck.length = 0;   
   for (let i = 2; i <= 10; i++) {
     for (let NumCard of NumCardstypes) {
       deck.push(i + NumCard);
