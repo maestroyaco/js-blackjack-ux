@@ -1,31 +1,31 @@
-![Screenshot resposive](screenshot/Publicidad_responsive.png)
+#  Finalizo este proyecto, pero te invito a continuarlo.
+Quería dedicar más tiempo a seguir mejorando este proyecto, mientras aprendía JS. Pero me he topado con algunos viejos hábitos que me están dificultando mi aprendizaje.
 
-### 📌 Cambios recientes:
-- Ahora la maquina toma mejores desiciones en su turno
-- Se corrigieron errores en la lógica de turnos.
-- Se paso el Js vanilla creando Modulos de vite
+Por este motivo, tras reflexionar un poco, en vez de dedicar mi tiempo a construir un gran proyecto, estaré trabajando en pequeños scripts que podrás ver en mi tablero de Git, para afianzar mis conocimientos básicos en JS y poder profundizar más en este lenguaje de programación.
+
+###  Últimos cambios:
+- Se implementó un flujo de "turnos".
+- Ahora la lógica de negocio de la "máquina" toma mejores decisiones en su turno.
+- Los resultados del ganador se calculan correctamente.
+- Se modularizó el proyecto con Vite para su mayor comprensión y desarrollo.
 
 DEMO Online: https://maestroyaco.github.io/js-blackjack-ux/ Thanks Git Page
 
-# 🚀 Unete al proyecto
-Si te gusta aprender y compartir con otros tus logros y avances, subate a js-BlackJack-Ux 
-Aprende sobre modulos en vite usando javaScript, sobre ciclos y manejar el doom.
+#  Únete al proyecto
+Si te gusta aprender y compartir con otros tus logros y avances, súbete a js-BlackJack-Ux. Aprende sobre módulos en Vite usando JavaScript vanilla, sobre ciclos y manejar el DOM.
 
-* Comparte mejoras del codigo
-* Mejora la logica de los turnos
-* Haz de la maquina un gran contrincante
-* Sumate aprender sobre git, github y su control de versiones.
+* Comparte mejoras del código.
+* Mejora la lógica de los turnos.
+* Haz de la máquina un gran contrincante.
+* Súmate a aprender sobre Git, GitHub y su control de versiones.
+* Aprende cómo crear experiencias con el UI/UX.
 
-🔹 Lo mas importante es querer, aprender, crear y enseñar. Esa es mi filosofia al programar. 
-
-Sobre este proyecto, lo que se busca es tomar un simple codigo, y mejorarlo hasta convertirlo en una web-app funcional para divertirte con amigos, ofreciendo una experiencia de BlackJack online en donde el Ui y el UX buscan mejorarse constantemente.
-
-El objetivo final de este proyecto es que sea multijugador con un sistema de ranking integrado y ofrecer skin por puntos ganados a los jugadores. 
+ Lo más importante es querer aprender, crear y enseñar. Esa es mi filosofía al programar.
 
 ## Para iniciar el proyecto
-1. Clone el repositorio a visual estudio code (Recomendado el editor)
-2. Asegurece de tener node instalado, abra una terminal y ejecute ```npm install``` Para bajar las dependencias necesarias
-3. Inicie el ```npm run dev``` para visualizar el proyecto localmente en el link que te entrega la terminal
-4. Cuango haga cambios contacteme para hacer un commit en este repositorio principal
+1. Clona el repositorio en Visual Studio Code (recomendado, o usa el de tu gusto personal).
+2. Asegúrate de tener Node instalado, abre una terminal en la raíz del proyecto y ejecuta `npm install` para bajar las dependencias necesarias.
+3. Inicia `npm run dev` para visualizar el proyecto localmente en el enlace que te entrega la terminal.
+4. Puedes hacer mejoras y enviarlas al repositorio. Aunque no seguiré trabajando en él, te puede servir como experiencia para aprender a hacer aportes en Git.
 
-😃 Mi discord es: maestroyaco  ID: 333080333429768202
+ Mi Discord es: maestroyaco ID: 333080333429768202
